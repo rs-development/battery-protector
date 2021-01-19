@@ -751,7 +751,7 @@ U 1 1 6012B83E
 P 6000 7100
 F 0 "#LOGO1" H 6000 7375 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 6000 6875 50  0001 C CNN
-F 2 "" H 6000 7100 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 6000 7100 50  0001 C CNN
 F 3 "~" H 6000 7100 50  0001 C CNN
 	1    6000 7100
 	1    0    0    -1  
@@ -866,4 +866,59 @@ Wire Wire Line
 	9600 2850 9600 2950
 Wire Wire Line
 	9600 1950 9600 2700
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6025B2E9
+P 1000 6400
+F 0 "H?" H 1100 6446 50  0000 L CNN
+F 1 "MountingHole" H 1100 6355 50  0000 L CNN
+F 2 "" H 1000 6400 50  0001 C CNN
+F 3 "~" H 1000 6400 50  0001 C CNN
+	1    1000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6025BA60
+P 1000 6600
+F 0 "H?" H 1100 6646 50  0000 L CNN
+F 1 "MountingHole" H 1100 6555 50  0000 L CNN
+F 2 "" H 1000 6600 50  0001 C CNN
+F 3 "~" H 1000 6600 50  0001 C CNN
+	1    1000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6025C1C4
+P 1000 6800
+F 0 "H?" H 1100 6846 50  0000 L CNN
+F 1 "MountingHole" H 1100 6755 50  0000 L CNN
+F 2 "" H 1000 6800 50  0001 C CNN
+F 3 "~" H 1000 6800 50  0001 C CNN
+	1    1000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6025C1CA
+P 1000 7000
+F 0 "H?" H 1100 7046 50  0000 L CNN
+F 1 "MountingHole" H 1100 6955 50  0000 L CNN
+F 2 "" H 1000 7000 50  0001 C CNN
+F 3 "~" H 1000 7000 50  0001 C CNN
+	1    1000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 6004B459
+P 4950 7100
+F 0 "#LOGO?" H 4950 7375 50  0001 C CNN
+F 1 "Kicad" H 4950 6875 50  0000 C CNN
+F 2 "Symbol:KiCad-Logo2_8mm_Copper" H 4950 7100 50  0001 C CNN
+F 3 "~" H 4950 7100 50  0001 C CNN
+	1    4950 7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

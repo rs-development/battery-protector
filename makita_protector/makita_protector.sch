@@ -746,12 +746,12 @@ Wire Wire Line
 	1650 1400 1650 1350
 Connection ~ 1500 1400
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 6012B83E
 P 6000 7100
-F 0 "#LOGO1" H 6000 7375 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 6000 6875 50  0001 C CNN
-F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 6000 7100 50  0001 C CNN
+F 0 "LOGO1" H 6000 7375 50  0001 C CNN
+F 1 "oshw" H 6000 6875 50  0000 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 6000 7100 50  0001 C CNN
 F 3 "~" H 6000 7100 50  0001 C CNN
 	1    6000 7100
 	1    0    0    -1  
@@ -911,14 +911,47 @@ F 3 "~" H 1000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO2
+L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 6004B459
 P 4950 7100
-F 0 "#LOGO2" H 4950 7375 50  0001 C CNN
+F 0 "LOGO2" H 4950 7375 50  0001 C CNN
 F 1 "Kicad" H 4950 6875 50  0000 C CNN
-F 2 "Symbol:KiCad-Logo2_8mm_Copper" H 4950 7100 50  0001 C CNN
+F 2 "Symbol:KiCad-Logo2_5mm_SilkScreen" H 4950 7100 50  0001 C CNN
 F 3 "~" H 4950 7100 50  0001 C CNN
 	1    4950 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60086B21
+P 2350 6400
+F 0 "FID1" H 2435 6446 50  0000 L CNN
+F 1 "Fiducial" H 2435 6355 50  0000 L CNN
+F 2 "makita_protector:Fiducial_1mm_Mask2mm_Paste" H 2350 6400 50  0001 C CNN
+F 3 "~" H 2350 6400 50  0001 C CNN
+	1    2350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60087198
+P 2350 6650
+F 0 "FID2" H 2435 6696 50  0000 L CNN
+F 1 "Fiducial" H 2435 6605 50  0000 L CNN
+F 2 "makita_protector:Fiducial_1mm_Mask2mm_Paste" H 2350 6650 50  0001 C CNN
+F 3 "~" H 2350 6650 50  0001 C CNN
+	1    2350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 60087324
+P 2350 6900
+F 0 "FID3" H 2435 6946 50  0000 L CNN
+F 1 "Fiducial" H 2435 6855 50  0000 L CNN
+F 2 "makita_protector:Fiducial_1mm_Mask2mm_Paste" H 2350 6900 50  0001 C CNN
+F 3 "~" H 2350 6900 50  0001 C CNN
+	1    2350 6900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

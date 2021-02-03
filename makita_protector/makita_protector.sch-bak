@@ -867,58 +867,102 @@ Wire Wire Line
 Wire Wire Line
 	9600 1950 9600 2700
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 6025B2E9
 P 1000 6400
-F 0 "H?" H 1100 6446 50  0000 L CNN
+F 0 "H1" H 1100 6446 50  0000 L CNN
 F 1 "MountingHole" H 1100 6355 50  0000 L CNN
-F 2 "" H 1000 6400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1000 6400 50  0001 C CNN
 F 3 "~" H 1000 6400 50  0001 C CNN
 	1    1000 6400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 6025BA60
 P 1000 6600
-F 0 "H?" H 1100 6646 50  0000 L CNN
+F 0 "H2" H 1100 6646 50  0000 L CNN
 F 1 "MountingHole" H 1100 6555 50  0000 L CNN
-F 2 "" H 1000 6600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1000 6600 50  0001 C CNN
 F 3 "~" H 1000 6600 50  0001 C CNN
 	1    1000 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 6025C1C4
 P 1000 6800
-F 0 "H?" H 1100 6846 50  0000 L CNN
+F 0 "H3" H 1100 6846 50  0000 L CNN
 F 1 "MountingHole" H 1100 6755 50  0000 L CNN
-F 2 "" H 1000 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1000 6800 50  0001 C CNN
 F 3 "~" H 1000 6800 50  0001 C CNN
 	1    1000 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 6025C1CA
 P 1000 7000
-F 0 "H?" H 1100 7046 50  0000 L CNN
+F 0 "H4" H 1100 7046 50  0000 L CNN
 F 1 "MountingHole" H 1100 6955 50  0000 L CNN
-F 2 "" H 1000 7000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 1000 7000 50  0001 C CNN
 F 3 "~" H 1000 7000 50  0001 C CNN
 	1    1000 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO?
+L Graphic:Logo_Open_Hardware_Small #LOGO2
 U 1 1 6004B459
 P 4950 7100
-F 0 "#LOGO?" H 4950 7375 50  0001 C CNN
+F 0 "#LOGO2" H 4950 7375 50  0001 C CNN
 F 1 "Kicad" H 4950 6875 50  0000 C CNN
 F 2 "Symbol:KiCad-Logo2_8mm_Copper" H 4950 7100 50  0001 C CNN
 F 3 "~" H 4950 7100 50  0001 C CNN
 	1    4950 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60086B21
+P 2350 6400
+F 0 "FID1" H 2435 6446 50  0000 L CNN
+F 1 "Fiducial" H 2435 6355 50  0000 L CNN
+F 2 "makita_protector:Fiducial_1mm_Mask2mm_Paste" H 2350 6400 50  0001 C CNN
+F 3 "~" H 2350 6400 50  0001 C CNN
+	1    2350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60087198
+P 2350 6650
+F 0 "FID2" H 2435 6696 50  0000 L CNN
+F 1 "Fiducial" H 2435 6605 50  0000 L CNN
+F 2 "makita_protector:Fiducial_1mm_Mask2mm_Paste" H 2350 6650 50  0001 C CNN
+F 3 "~" H 2350 6650 50  0001 C CNN
+	1    2350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 60087324
+P 2350 6900
+F 0 "FID3" H 2435 6946 50  0000 L CNN
+F 1 "Fiducial" H 2435 6855 50  0000 L CNN
+F 2 "makita_protector:Fiducial_1mm_Mask2mm_Paste" H 2350 6900 50  0001 C CNN
+F 3 "~" H 2350 6900 50  0001 C CNN
+	1    2350 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 600E1959
+P 6100 6300
+F 0 "#LOGO?" H 6100 6575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6100 6075 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 6100 6300 50  0001 C CNN
+F 3 "~" H 6100 6300 50  0001 C CNN
+	1    6100 6300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
